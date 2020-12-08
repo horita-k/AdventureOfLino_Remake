@@ -1,3 +1,14 @@
+.vs/
+data/
+Debug/
+include/
+lib/
+object/
+x64/
+DebugLog.txt
+Log.txt
+
+
 # Prerequisites
 *.d
 

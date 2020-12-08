@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="srcs\AppLib\Basic\Basic.cpp" />
+    <ClCompile Include="srcs\AppLib\Basic\Counter.cpp" />
+    <ClCompile Include="srcs\AppLib\Basic\Path.cpp" />
+    <ClCompile Include="srcs\AppLib\Basic\VectorNode.cpp" />
+    <ClCompile Include="srcs\AppLib\Collision\CollisionManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Effect\EffectManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Effect\EffectNode.cpp" />
+    <ClCompile Include="srcs\AppLib\Effect\EffectResource.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\CameraManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\EffekseerManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\GraphicManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\LayoutBase.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\LayoutNumber.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\ModelBase.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\ModelCollision.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\ModelMap.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\ModelPmd.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\RenderBloom.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\Shadow.cpp" />
+    <ClCompile Include="srcs\AppLib\Graphic\ShadowMap.cpp" />
+    <ClCompile Include="srcs\AppLib\Input\InputManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Resource\CsvAccesser.cpp" />
+    <ClCompile Include="srcs\AppLib\Resource\ResourceLayout.cpp" />
+    <ClCompile Include="srcs\AppLib\Resource\ResourceManager.cpp" />
+    <ClCompile Include="srcs\AppLib\Resource\ResourceModel.cpp" />
+    <ClCompile Include="srcs\AppLib\Sound\SoundComponent.cpp" />
+    <ClCompile Include="srcs\AppLib\Sound\SoundManager.cpp" />
+    <ClCompile Include="srcs\Charactor\CharaBase.cpp" />
+    <ClCompile Include="srcs\Charactor\CharaEnemy.cpp" />
+    <ClCompile Include="srcs\Charactor\CharaGuardian.cpp" />
+    <ClCompile Include="srcs\Charactor\CharaNavi.cpp" />
+    <ClCompile Include="srcs\Charactor\CharaNPC.cpp" />
+    <ClCompile Include="srcs\Charactor\CharaPlayer.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyArmer.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyDemon.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyDragon.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyEx.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyExcivy.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyFresbelk.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyGiginebura.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyGimuri.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyGoburin.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyHatophon.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyHongKong.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyKnight.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyLoana.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyMagician.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyMekaDragon.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyMinoArmer.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyMonk.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyOak.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyOakBomb.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyRedDragon.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyStrategist.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyTeeder.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyUsae.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyUsider.cpp" />
+    <ClCompile Include="srcs\Charactor\PersonalChara\CharaEnemyWizard.cpp" />
+    <ClCompile Include="srcs\DataDefine\EnemyDef.cpp" />
+    <ClCompile Include="srcs\DataDefine\ItemDef.cpp" />
+    <ClCompile Include="srcs\DataDefine\messagedef.cpp" />
+    <ClCompile Include="srcs\Gimmick\GimmickBase.cpp" />
+    <ClCompile Include="srcs\Gimmick\GimmickExtend.cpp" />
+    <ClCompile Include="srcs\main.cpp" />
+    <ClCompile Include="srcs\Object\BladeEffect.cpp" />
+    <ClCompile Include="srcs\Object\ModelHookShot.cpp" />
+    <ClCompile Include="srcs\Object\ObjectBase.cpp" />
+    <ClCompile Include="srcs\Object\ObjectHand.cpp" />
+    <ClCompile Include="srcs\Object\ObjectItem.cpp" />
+    <ClCompile Include="srcs\Object\ObjectSeesaw.cpp" />
+    <ClCompile Include="srcs\Object\ObjectSwitch.cpp" />
+    <ClCompile Include="srcs\Object\ObjectTresure.cpp" />
+    <ClCompile Include="srcs\Object\ObjectWeapon.cpp" />
+    <ClCompile Include="srcs\Scene\ActionTaskManager.cpp" />
+    <ClCompile Include="srcs\Scene\CommandFunctions.cpp" />
+    <ClCompile Include="srcs\Scene\EffectTest.cpp" />
+    <ClCompile Include="srcs\Scene\EventFunctions.cpp" />
+    <ClCompile Include="srcs\Scene\EventManager.cpp" />
+    <ClCompile Include="srcs\Scene\SceneEvent.cpp" />
+    <ClCompile Include="srcs\Scene\SceneMainGame.cpp" />
+    <ClCompile Include="srcs\Scene\SceneManager.cpp" />
+    <ClCompile Include="srcs\Scene\SceneSelectFile.cpp" />
+    <ClCompile Include="srcs\Scene\SceneTitle.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc016.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc028.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc029.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc036.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc040.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc041.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc042.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc043.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc046.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc047.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc048.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFunc052.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFuncBase.cpp" />
+    <ClCompile Include="srcs\Scene\StageFunc\StageFuncCommon.cpp" />
+    <ClCompile Include="srcs\Scene\SubSceneFlyingMove.cpp" />
+    <ClCompile Include="srcs\Scene\SubSceneGetItem.cpp" />
+    <ClCompile Include="srcs\Scene\SubSceneItemMenu.cpp" />
+    <ClCompile Include="srcs\Scene\SubScenePlayOcarina.cpp" />
+    <ClCompile Include="srcs\Scene\TotalInfo.cpp" />
+    <ClCompile Include="srcs\Utility\Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="srcs\AppLib\Basic\Basic.h" />
+    <ClInclude Include="srcs\AppLib\Basic\Counter.h" />
+    <ClInclude Include="srcs\AppLib\Basic\Path.h" />
+    <ClInclude Include="srcs\AppLib\Basic\VectorNode.h" />
+    <ClInclude Include="srcs\AppLib\Collision\CollisionManager.h" />
+    <ClInclude Include="srcs\AppLib\Effect\EffectManager.h" />
+    <ClInclude Include="srcs\AppLib\Effect\EffectNode.h" />
+    <ClInclude Include="srcs\AppLib\Effect\EffectResource.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\BillboardBase.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\CameraManager.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\EffectType.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\EffekseerManager.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\GraphicManager.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\LayoutBase.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\LayoutNumber.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\ModelBase.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\ModelCollision.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\ModelMap.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\ModelPmd.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\ModelType.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\RenderBloom.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\Shadow.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\ShadowMap.h" />
+    <ClInclude Include="srcs\AppLib\Graphic\Shape.h" />
+    <ClInclude Include="srcs\AppLib\Input\InputInfo.h" />
+    <ClInclude Include="srcs\AppLib\Input\InputManager.h" />
+    <ClInclude Include="srcs\AppLib\Resource\CsvAccesser.h" />
+    <ClInclude Include="srcs\AppLib\Resource\ResourceLayout.h" />
+    <ClInclude Include="srcs\AppLib\Resource\ResourceManager.h" />
+    <ClInclude Include="srcs\AppLib\Resource\ResourceModel.h" />
+    <ClInclude Include="srcs\AppLib\Sound\SoundComponent.h" />
+    <ClInclude Include="srcs\AppLib\Sound\SoundManager.h" />
+    <ClInclude Include="srcs\Charactor\CharaBase.h" />
+    <ClInclude Include="srcs\Charactor\CharaEnemy.h" />
+    <ClInclude Include="srcs\Charactor\CharaGuardian.h" />
+    <ClInclude Include="srcs\Charactor\CharaInfo.h" />
+    <ClInclude Include="srcs\Charactor\CharaNavi.h" />
+    <ClInclude Include="srcs\Charactor\CharaNPC.h" />
+    <ClInclude Include="srcs\Charactor\CharaPlayer.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyArmer.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyDemon.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyDragon.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyEx.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyExcivy.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyFresbelk.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyGiginebura.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyGimuri.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyGoburin.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyHatophon.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyHongKong.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyKnight.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyLoana.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyMagician.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyMekaDragon.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyMinoArmer.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyMonk.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyOak.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyOakBomb.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyRedDragon.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyStrategist.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyTeeder.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyUsae.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyUsider.h" />
+    <ClInclude Include="srcs\Charactor\PersonalChara\CharaEnemyWizard.h" />
+    <ClInclude Include="srcs\DataDefine\BGDef.h" />
+    <ClInclude Include="srcs\DataDefine\charadef.h" />
+    <ClInclude Include="srcs\DataDefine\EffectDef.h" />
+    <ClInclude Include="srcs\DataDefine\EnemyDef.h" />
+    <ClInclude Include="srcs\DataDefine\ItemDef.h" />
+    <ClInclude Include="srcs\DataDefine\messagedef.h" />
+    <ClInclude Include="srcs\DataDefine\MotionDef.h" />
+    <ClInclude Include="srcs\DataDefine\VoiceDef.h" />
+    <ClInclude Include="srcs\External\Effekseer\Effekseer.h" />
+    <ClInclude Include="srcs\External\Effekseer\EffekseerForDXLib.h" />
+    <ClInclude Include="srcs\External\Effekseer\EffekseerRendererDX11.h" />
+    <ClInclude Include="srcs\External\Effekseer\EffekseerRendererDX9.h" />
+    <ClInclude Include="srcs\External\Effekseer_vs2012\Effekseer.h" />
+    <ClInclude Include="srcs\External\Effekseer_vs2012\EffekseerForDXLib.h" />
+    <ClInclude Include="srcs\External\Effekseer_vs2012\EffekseerRendererDX9.h" />
+    <ClInclude Include="srcs\Gimmick\GimmickBase.h" />
+    <ClInclude Include="srcs\Gimmick\GimmickExtend.h" />
+    <ClInclude Include="srcs\Object\BladeEffect.h" />
+    <ClInclude Include="srcs\Object\ModelHookShot.h" />
+    <ClInclude Include="srcs\Object\ObjectBase.h" />
+    <ClInclude Include="srcs\Object\ObjectHand.h" />
+    <ClInclude Include="srcs\Object\ObjectItem.h" />
+    <ClInclude Include="srcs\Object\ObjectSeesaw.h" />
+    <ClInclude Include="srcs\Object\ObjectSwitch.h" />
+    <ClInclude Include="srcs\Object\ObjectTresure.h" />
+    <ClInclude Include="srcs\Object\ObjectWeapon.h" />
+    <ClInclude Include="srcs\Scene\ActionTaskManager.h" />
+    <ClInclude Include="srcs\Scene\CommandFunctions.h" />
+    <ClInclude Include="srcs\Scene\EffectTest.h" />
+    <ClInclude Include="srcs\Scene\EventFunctions.h" />
+    <ClInclude Include="srcs\Scene\EventManager.h" />
+    <ClInclude Include="srcs\Scene\ExternDefine.h" />
+    <ClInclude Include="srcs\Scene\SceneBase.h" />
+    <ClInclude Include="srcs\Scene\SceneEvent.h" />
+    <ClInclude Include="srcs\Scene\SceneInfo.h" />
+    <ClInclude Include="srcs\Scene\SceneMainGame.h" />
+    <ClInclude Include="srcs\Scene\SceneManager.h" />
+    <ClInclude Include="srcs\Scene\SceneSelectFile.h" />
+    <ClInclude Include="srcs\Scene\SceneTitle.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc016.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc028.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc029.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc036.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc040.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc041.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc042.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc043.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc046.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc047.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc048.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFunc052.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFuncBase.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFuncCommon.h" />
+    <ClInclude Include="srcs\Scene\StageFunc\StageFuncDef.h" />
+    <ClInclude Include="srcs\Scene\SubSceneFlyingMove.h" />
+    <ClInclude Include="srcs\Scene\SubSceneGetItem.h" />
+    <ClInclude Include="srcs\Scene\SubSceneItemMenu.h" />
+    <ClInclude Include="srcs\Scene\SubScenePlayOcarina.h" />
+    <ClInclude Include="srcs\Scene\TotalInfo.h" />
+    <ClInclude Include="srcs\Utility\Utility.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bfaabffe-6f8e-4c34-b644-520e943fb9e2}</ProjectGuid>
+    <RootNamespace>AdventureOfLinoRemake</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;LIB_VER_3_12e;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\srcs;$(ProjectDir)\include\DxLib;$(ProjectDir)\include\Effekseer;$(ProjectDir)\include\PIC;C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib\DxLib;$(ProjectDir)\lib\Effekseer;$(ProjectDir)\lib\PIC;C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
